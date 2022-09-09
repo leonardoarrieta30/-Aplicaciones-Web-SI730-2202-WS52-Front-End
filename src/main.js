@@ -8,6 +8,10 @@ import InputNumber from 'primevue/inputnumber';
 import InputMask from 'primevue/inputmask';
 import Dropdown from 'primevue/dropdown';
 
+import i18n from './locales/i18n'
+import { createI18n } from 'vue-i18n';//importar
+
+
 
 
 
@@ -17,9 +21,22 @@ import 'primeicons/primeicons.css'                           //icons
 import '/node_modules/primeflex/primeflex.css'
 
 
+
+
+
+
+
+
+
+
+
+
 const app = createApp(App);
 
+//lo inyectamos
 app.use(PrimeVue);
+app.use(i18n);//inyectar
+
 app.component('Button', Button);
 app.component('InputText', InputText);//Lo inyectamo a la aplicacion como conponente
 app.component('InputNumber', InputNumber);
