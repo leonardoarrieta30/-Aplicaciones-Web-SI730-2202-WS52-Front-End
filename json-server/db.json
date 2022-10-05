@@ -1,0 +1,101 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "post 2",
+      "author": "Arrus 30",
+      "id": 2
+    },
+    {
+      "title": "post 3",
+      "author": "Luminus",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "other comment updated v2",
+      "postId": 1
+    },
+    {
+      "body": "other comment two",
+      "postId": 1,
+      "id": 3
+    },
+    {
+      "body": "new comment 6",
+      "postId": 1,
+      "id": 4
+    },
+    {
+      "body": "new comment hard",
+      "postId": 1,
+      "id": 5
+    },
+    {
+      "body": "hello this is a new comment2",
+      "postId": "22",
+      "id": 6
+    },
+    {
+      "body": "Pesimo servicio",
+      "postId": "32",
+      "id": 7
+    },
+    {
+      "body": "",
+      "postId": "",
+      "id": 8
+    },
+    {
+      "body": "",
+      "postId": "",
+      "id": 9
+    },
+    {
+      "body": "Buen servicio",
+      "postId": {
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+      },
+      "id": 10
+    },
+    {
+      "body": "Maso menos el servicio",
+      "postId": {
+        "title": "post 3",
+        "author": "Luminus",
+        "id": 3
+      },
+      "id": 11
+    },
+    {
+      "body": "comment 22",
+      "postId": {
+        "title": "post 2",
+        "author": "Arrus 30",
+        "id": 2
+      },
+      "id": 12
+    },
+    {
+      "body": "Buen producto",
+      "postId": 2,
+      "id": 13
+    },
+    {
+      "body": "Bonito el el lugar del restaurante",
+      "postId": 1,
+      "id": 14
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
